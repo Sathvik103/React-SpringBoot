@@ -1,0 +1,14 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f6f7fb;
+  color: #222;
+}
+
+.card { border-radius: 12px; }
+.btn { border-radius: 10px; }
+
+/* small hover lift */
+.card:hover { transform: translateY(-6px); transition: transform .18s ease; box-shadow: 0 8px 24px rgba(13,38,76,0.08); }

@@ -1,0 +1,60 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #e9ecef !important;
+  margin-right: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  border: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.btn-light:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0.8rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 12px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #00bfff;
+}
